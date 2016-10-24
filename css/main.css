@@ -1,0 +1,39 @@
+html,body{height:100%;margin:0;font-family:"微软雅黑";}
+h1,h2,h3,p{margin:0;}
+*{box-sizing:border-box;}
+.w{width:100%;}.h{height:100%;}
+.mt-20{margin-top:20px;}
+.t-l{text-align:left;}.t-c{text-align:center;}.t-r{text-align:right;}
+.mid-layout{width:1200px;margin-left:auto;margin-right:auto;}
+.v-m{vertical-align: middle;}.v-t{vertical-align: top;}.v-b{vertical-align: bottom;}
+.top-bar{height:78px;background:#fff;position:fixed;top:0;left:0;width:100%;}
+.row{display:table;border-collapse: collapse;table-layout: fixed;border-spacing: 0;}
+.col{display:table-cell;}
+.col-30{width:30%;}.col-40{width:40%;}
+.logo h1{font-size:28px;color:#333;}
+.nav{display:table;height:78px;}
+.nav a{display:table-cell;vertical-align: middle;font-size:16px;color:#333;text-decoration:none;font-weight:bold;padding-right:2em;border-left:1px solid #BBBBBB;padding:0 0.3em;}
+.nav a i{display:inline-block;font-size:8px;color:#333;font-style:normal;font-weight:normal;overflow:hidden;width:100%;}
+.nav a span{display:inline-block;width:100%;}
+.nav a.active{background:#FEF0F0}
+.login{width:130px;}
+.login .nav a:first-child{border-left:none;}
+.login .nav a{text-align:center;}
+.view{padding-top:78px;height:100%;}
+.fix-bottom .view{padding-bottom:230px;}
+.banner.index{height:100%;background:url(../img/banner.jpg) no-repeat center top;width:100%;}
+.banner.index p{font-size:15px;color:#fff;line-height:32px;}
+.banner.index .btn{width:272px;height:70px;display:inline-block;text-decoration:none;background:url(../img/btn.png) no-repeat center center;line-height:70px;text-align:center;font-size:24px;color:#fff;margin:40px 0 80px 0;}
+.footer{height:230px;background:#20222C;}
+.footer p{font-size:12px;color:#4b5e98;margin:0;line-height:20px;}
+.footer .line{height:1px;border-bottom:1px dashed #2E3039;margin:10px 0;}
+.code-box{padding:25px;border:1px dotted #4b5e98;display:inline-block;text-align:center;position:relative;}
+.code-box:before,.code-box:after{content:"";display:inline-block;width:90%;height:1px;position:absolute;left:5%;top:-1px;background:#20222C;}
+.code-box:after{bottom:-1px;top:auto;}
+.banner{height:370px;background:url(../img/banner-mini.jpg) no-repeat center center;}
+.module-title{font-size:16px;margin-bottom:20px;}
+.module-title span{padding-right:0.3em;position:relative;}
+.module-title span:after{content:"";display:inline-block;width:1px;height:16px;background:#9e0000;position:absolute;right:0;top:50%;margin-top:-8px;}
+.module-title i{font-size:12px;font-weight:normal;font-style:normal;color:#666666;}
+.main .col{border-left:1px dashed #D4D4D4;padding:0 10px;}
+.main .col:first-child{border-left:none;}
