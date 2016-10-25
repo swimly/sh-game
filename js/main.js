@@ -3,7 +3,7 @@
   $(".next").click(function(){
     current++;
     $(".item").eq(current).show().siblings(".item").hide();
-    $(".step").children().removeClass("next")
+    $(".step").children().eq(current).removeClass("next")
   })
   $(".pop-xieyi").click(function(){
     $(".mask").fadeIn(200);
