@@ -23,7 +23,7 @@ input:focus,button:focus{outline:none;}
 .row{display:table;border-collapse: collapse;table-layout: fixed;border-spacing: 0;}
 .col{display:table-cell;}
 .col-30{width:30%;}.col-40{width:40%;}.col-70{width:70%;}
-.logo h1{font-size:2.8em;color:#2c62c3;}
+.logo h1{font-size:2.8em;color:#2c62c3;text-indent:1em;}
 .nav{display:table;height:78px;}
 .nav a{display:table-cell;vertical-align: bottom;color:#333;text-decoration:none;font-weight:bold;border-left:1px solid #ddd;padding:0 0.5em;position:relative;padding-bottom:8px;width:12em;text-align:left;}
 .nav a i{display:block;font-size:8px;font-style:normal;font-weight:normal;overflow:hidden;width:100%;margin-right:3em;font-size:0.8em;color:#666;}
