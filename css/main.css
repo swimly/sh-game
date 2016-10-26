@@ -30,7 +30,7 @@ input:focus,button:focus{outline:none;}
 .nav a span{display:block;width:100%;font-size:1.6em;}
 .nav a.active{background:#FEF0F0;color:#ff0000;}
 .nav a.active i{color:#ff0000;}
-.login{width:130px;}
+.login{width:220px;}
 .info{width:270px;}
 .info .user i{font-size:14px;margin:0 0.3em;position:relative;top:-14px;}
 .info .user .iconfont{font-size:14px;color:#C40000;position:relative;}
@@ -40,16 +40,17 @@ input:focus,button:focus{outline:none;}
 .login .nav a{text-align:left;padding:0 0 8px 2em;}
 .login .nav a span{font-size:14px;}
 .view{padding-top:78px;height:100%;}
-.fix-bottom .view{padding-bottom:230px;}
+.fix-bottom .view{padding-bottom:180px;}
 .info a i.name{width:70px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
-.banner.index{height:100%;background:url(../img/banner.jpg) no-repeat center bottom;width:100%;position:relative;background-size:100% 100%;}
+.banner.index{height:100%;background:url(../img/banner.jpg) no-repeat center top;width:100%;position:relative;background-size:100% auto;}
 .banner.index p{font-size:15px;color:#fff;line-height:32px;}
 .banner.index .btn{width:272px;height:70px;display:inline-block;text-decoration:none;background:url(../img/btn.png) no-repeat center center;line-height:70px;text-align:center;font-size:24px;color:#fff;margin:40px 0 80px 0;padding:0;}
-.footer{height:230px;background:#20222C;}
+.footer{height:180px;background:#0E163D;}
 .footer p{font-size:12px;color:#4b5e98;margin:0;line-height:20px;}
 .footer .fs-14{color:#566db5;margin-bottom:5px;}
 .footer .line{height:1px;border-bottom:1px dashed #2E3039;margin:10px 0;}
-.code-box{padding:25px;border:1px dotted #4b5e98;display:inline-block;text-align:center;position:relative;}
+.code-box{padding:10px 15px 5px 15px;border:1px dotted #4b5e98;display:inline-block;text-align:center;position:relative;}
+.code-box img{width:100px;vertical-align:top;}
 .code-box:before,.code-box:after{content:"";display:inline-block;width:90%;height:1px;position:absolute;left:5%;top:-1px;background:#20222C;}
 .code-box:after{bottom:-1px;top:auto;}
 .banner{height:370px;}
