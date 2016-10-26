@@ -120,17 +120,17 @@ input:focus,button:focus{outline:none;}
 .search{position:relative;width:100%;display:inline-block;overflow:hidden;}
 .search input{width:100%;border:1px solid #D2D2D2;font-size:14px;padding:10px 4em 10px 1em;transition:0.3s;}
 .search input:focus{border-color:#F50000;}
-.search .iconfont{position:absolute;top:0;right:0;font-size:18px;padding:10px;border:none;background:#F50000;color:#fff;width:4em;text-align:center;cursor:pointer;}
+.search .iconfont{position:absolute;top:0;right:0;font-size:18px;padding:10px;border:none;background:#3161C7;color:#fff;width:4em;text-align:center;cursor:pointer;}
 /*table-info*/
-.table-info th{font-weight:normal;border-top:1px solid #F50000;border-bottom:1px solid #F50000;background:#FDE5E5;font-size:14px;color:#333;padding:15px;}
+.table-info th{font-weight:normal;border-top:1px solid #2D64C1;border-bottom:1px solid #2D64C1;background:#ECF0F9;font-size:14px;color:#333;padding:15px;}
 .table-info td{font-size:14px;color:#666;padding:15px 0.5em;border-bottom:1px dashed #AAAAAA;}
 .table-info tr.even{background:#FBFBFB;}
 /*分页*/
 .paging{padding:20px 0;margin-top:50px;margin-bottom:50px;}
-.paging .ion{font-size:14px;color:#F50000;display:inline-block;border:1px solid #E2E2E1;padding:8px 12px;margin-left:7px;border-radius:3px;}
+.paging .ion{font-size:14px;color:#2D64C1;display:inline-block;border:1px solid #E2E2E1;padding:8px 12px;margin-left:7px;border-radius:3px;}
 .paging .col{font-size:0;}
 .paging .ion.active{color:#333 !important;border:none;background:none !important;}
-.paging .ion:hover{color:#fff;background:#F50000;border-color:#F50000;}
+.paging .ion:hover{color:#fff;background:#3161C7;border-color:#2D64C1;}
 /*step*/
 .step{list-style: none;padding:20px 0;}
 .step li{text-align:center;position:relative;}
