@@ -28,10 +28,10 @@
   </div>
   <div class="view">
     <div class="banner">
-      <div class="mid-layout row h">
-        <div class="col v-m t-c">
-          <img style="margin-right:600px;" src="img/title.png" alt="">
-        </div>
+      <div id="myslider" style="width:100%; height:370px">
+        <img src="img/banner-mini.jpg"/>
+        <img src="img/banner-mini1.jpg"/>
+        <img src="img/banner-mini2.jpg"/>
       </div>
     </div>
     <div class="mid-layout row mt-40 main mb-40">
@@ -132,5 +132,18 @@
       </div>
     </div>
   </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/simpleslider.min.js"></script>
+  <script>
+    var slider = new SimpleSlider( document.getElementById('myslider'),{
+        autoPlay: true,
+        transitionProperty:'left',
+        startValue:'100%',
+        visibleValue:'0px',
+        endValue:'-100%',
+        transitionDelay: 3,
+        transitionDuration: 1
+      });
+  </script>
 </body>
 </html>
