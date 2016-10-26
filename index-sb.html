@@ -30,7 +30,20 @@
   </div>
   <div class="view">
     <div class="banner">
-      <div class="banner-wrap" id="banner">
+      <div class="slider">
+        <ul class="slides">
+          <li class="slide">
+            <div class="box" style="background:url(img/slider1.jpg) no-repeat center bottom;"></div>
+          </li>
+          <li class="slide">
+            <div class="box" style="background:url(img/slider2.jpg) no-repeat center bottom;">slide2</div>
+          </li>
+          <li class="slide">
+            <div class="box" style="background:url(img/slider3.jpg) no-repeat center bottom;">slide3</div>
+          </li>
+        </ul>
+      </div>
+      <!--<div class="banner-wrap" id="banner">
         <div class="banner-item">
           <div class="mid-layout">
             <img entry="fadeInDown" leave="fadeOutDown" delay="500" class="animated" src="img/b11.png" style="position:absolute;right:50px;bottom:60px;z-index:2">
@@ -51,7 +64,7 @@
             <img entry="fadeInDown" leave="fadeOutDown" delay="500" class="animated" src="img/b31.png" style="position:absolute;right:0;bottom:180px; z-index:2;">
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
     <div class="mid-layout row mt-40 main mb-40">
       <div class="col v-t col-30">
@@ -152,9 +165,25 @@
     </div>
   </div>
   <script src="js/jquery.js"></script>
-  <script src="js/plugin.js"></script>
+  <script src="js/jquery.glide.min.js"></script>
   <script>
-    $("#banner").Banner({tabBg:["img/banner-mini3.jpg","img/banner-mini1.jpg","img/banner-mini2.jpg"],delay:6000,})
+    var glide = $('.slider').glide({
+					//autoplay:true,//是否自动播放 默认值 true如果不需要就设置此值
+					animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效
+					arrows:true, //是否显示左右导航器
+					arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+					arrowMainClass: "slider-arrow",//滑块箭头公共类名
+					arrowRightClass:"slider-arrow--right",//滑块右箭头类名
+					arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
+					arrowRightText:">",//定义左右导航器文字或者符号也可以是类
+					arrowLeftText:"<",
+
+					nav:true, //主导航器也就是本例中显示的小方块
+					navCenter:true, //主导航器位置是否居中
+					navClass:"slider-nav",//主导航器外部div类名
+					navItemClass:"slider-nav__item", //本例中小方块的样式
+					navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
+				});	
   </script>
 </body>
 </html>
