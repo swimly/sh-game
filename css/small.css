@@ -1,0 +1,10 @@
+body{font-size:55%;}
+.top-bar,.nav{height:55px;}
+.view{padding-top:55px;}
+.footer{height:150px;}
+.fix-bottom .view{padding-bottom:150px;}
+.code-box{padding:15px;}
+.code-box img{width:80px;}
+.footer .fs-14{font-size:12px !important;}
+.info .user i{font-size:12px;top:-8px;}
+.info .user:after{top:10px;}
