@@ -75,7 +75,7 @@ function GetPageScroll(){
 						itemc.each(function(index,ele){
 							var _this=$(this);
 							setTimeout(function(){
-								_this.fadeIn("fast").addClass(_this.attr("entry"))
+								_this.fadeIn(1000).addClass(_this.attr("entry"))
 							},$(this).attr("delay"))
 							setTimeout(function(){
 								_this.removeClass(_this.attr("entry")).addClass(_this.attr("leave"))

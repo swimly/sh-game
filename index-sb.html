@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>首页</title>
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -28,10 +29,27 @@
   </div>
   <div class="view">
     <div class="banner">
-      <div id="myslider" style="width:100%; height:370px">
-        <img src="img/banner-mini.jpg"/>
-        <img src="img/banner-mini1.jpg"/>
-        <img src="img/banner-mini2.jpg"/>
+      <div class="banner-wrap" id="banner">
+        <div class="banner-item">
+          <div class="mid-layout">
+            <img entry="fadeInDown" leave="fadeOutDown" delay="500" class="animated" src="img/b11.png" style="position:absolute;right:50px;bottom:60px;z-index:2">
+            <img entry="fadeInDown" leave="fadeOutDown" delay="1000" class="animated" src="img/b12.png" style="position:absolute;left:0;bottom:120px; z-index:2;">
+          </div>
+          <img entry="fadeIn" leave="fadeOut" delay="0" class="animated" src="img/b13.png" style="position:absolute;right:0;bottom:0;z-index:1">
+        </div>
+        <div class="banner-item">
+          <div class="mid-layout">
+            <img entry="fadeInDown" leave="fadeOutDown" delay="500" class="animated" src="img/b21.png" style="position:absolute;left:0;bottom:180px; z-index:2;">
+            <p entry="fadeInUp" leave="zoomOut" delay="1000" class="animated" style="font-size:36px;font-weight:bold;color:#fff;position:absolute;left:0;bottom:100px;">
+              10月25日盛大公测
+            </p>
+          </div>
+        </div>
+        <div class="banner-item">
+          <div class="mid-layout">
+            <img entry="fadeInDown" leave="fadeOutDown" delay="500" class="animated" src="img/b31.png" style="position:absolute;right:0;bottom:180px; z-index:2;">
+          </div>
+        </div>
       </div>
     </div>
     <div class="mid-layout row mt-40 main mb-40">
@@ -41,7 +59,7 @@
           <i>service unit</i>
         </h2>
         <ul class="ion-list">
-          <li>
+          <li class="test">
             <span><img src="img/img1.jpg" alt=""></span>
             <a class="c-3" href="">
               <b class="fs-16 f-b">华东师范大学出版社</b>
@@ -85,15 +103,15 @@
         </h2>
         <p class="fs-14 c-6 lh-24 mt-20"> 根据国家新闻出版广电总局（简称“总局”）公布：《移动游戏出版服务管理的通知》和顺延《移动游戏出版服务管理的通知》政策。我平台为贯彻落实总局对移动游戏的最新要求和出版工作的相关部署，公告内容请点击详细阅读。为创造健康的游戏行业，我平台会严格遵守广电总局颁布的法律法规，也请合作伙伴能配合完成，感谢！</p>
         <ul class="row w img mt-20">
-          <li class="col v-m">
+          <li class="col v-m nobor">
             <img src="img/img5.png" alt="">
             <a href="#" class="btn btn-black">查看材料清单</a>
           </li>
-          <li class="col v-m">
+          <li class="col v-m nobor">
             <img src="img/img6.png" alt="">
             <a href="#" class="btn btn-black">查看材料清单</a>
           </li>
-          <li class="col v-m">
+          <li class="col v-m nobor">
             <img src="img/img7.png" alt="">
             <a href="#" class="btn btn-black">查看材料清单</a>
           </li>
@@ -133,17 +151,9 @@
     </div>
   </div>
   <script src="js/jquery.js"></script>
-  <script src="js/simpleslider.min.js"></script>
+  <script src="js/plugin.js"></script>
   <script>
-    var slider = new SimpleSlider( document.getElementById('myslider'),{
-        autoPlay: true,
-        transitionProperty:'left',
-        startValue:'100%',
-        visibleValue:'0px',
-        endValue:'-100%',
-        transitionDelay: 3,
-        transitionDuration: 1
-      });
+    $("#banner").Banner({tabBg:["img/banner-mini3.jpg","img/banner-mini1.jpg","img/banner-mini2.jpg"],delay:6000,})
   </script>
 </body>
 </html>
