@@ -24,14 +24,14 @@ input:focus,button:focus{outline:none;}
 .col{display:table-cell;}
 .col-30{width:30%;}.col-40{width:40%;}.col-70{width:70%;}
 .logo h1{font-size:2.8em;color:#2c62c3;text-indent:1em;}
-.nav{display:table;height:78px;}
+.nav{display:table;height:78px;width:100%;}
 .nav a{display:table-cell;vertical-align: bottom;color:#333;text-decoration:none;font-weight:bold;border-left:1px solid #ddd;padding:0 0.5em;position:relative;padding-bottom:8px;width:12em;text-align:left;}
 .nav a i{display:block;font-style:normal;font-weight:normal;overflow:hidden;width:100%;margin-right:3em;font-size:1em;color:#666;}
 .nav a span{display:block;width:100%;font-size:1.6em;}
 .nav a.active{background:#FEF0F0;color:#ff0000;}
 .nav a.active i{color:#ff0000;}
 .login{width:220px;}
-.info{width:270px;}
+.info{width:270px;padding-left:30px;}
 .info .user i{font-size:14px;margin:0 0.3em;position:relative;top:-14px;}
 .info .user .iconfont{font-size:14px;color:#C40000;position:relative;}
 .info .user:after{content:attr(title);display:inline-block;position:absolute;right:5px;top:24px;width:14px;height:14px;border-radius:50%;background:#C40000;color:#fff;font-size:12px;font-weight:normal;text-align:center;line-height:12px;}
