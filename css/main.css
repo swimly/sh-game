@@ -26,7 +26,7 @@ input:focus,button:focus{outline:none;}
 .logo h1{font-size:2.8em;color:#2c62c3;text-indent:1em;}
 .nav{display:table;height:78px;}
 .nav a{display:table-cell;vertical-align: bottom;color:#333;text-decoration:none;font-weight:bold;border-left:1px solid #ddd;padding:0 0.5em;position:relative;padding-bottom:8px;width:12em;text-align:left;}
-.nav a i{display:block;font-size:8px;font-style:normal;font-weight:normal;overflow:hidden;width:100%;margin-right:3em;font-size:0.8em;color:#666;}
+.nav a i{display:block;font-style:normal;font-weight:normal;overflow:hidden;width:100%;margin-right:3em;font-size:1em;color:#666;}
 .nav a span{display:block;width:100%;font-size:1.6em;}
 .nav a.active{background:#FEF0F0;color:#ff0000;}
 .nav a.active i{color:#ff0000;}
@@ -69,12 +69,14 @@ input:focus,button:focus{outline:none;}
 .main .col:first-child{border-left:none;}
 /*list*/
 .ion-list{list-style: none;padding:0;margin:0;}
-.ion-list li{display:table;width:100%;border-bottom:1px solid #EBEBEB;height:83px;position:relative;transition:0.3s;}
+.ion-list li{display:table;table-layout:fixed;width:100%;border-bottom:1px solid #EBEBEB;height:83px;position:relative;transition:0.3s;}
 .ion-list li:hover{box-shadow:0 2px 5px #ccc;}
 .ion-list li.test:after{content:url(../img/sd.png);position:absolute;right:0;top:50%;margin-top:-16px;}
 .ion-list li span,.ion-list li a{display:table-cell;vertical-align: middle;text-decoration:none;}
 .ion-list li a:hover b{color:#FF0000;}
-.ion-list li span{width:40%;text-align:center;}
+.ion-list li span{width:25%;text-align:center;}
+.ion-list li a{padding-right:40px;width:75%;}
+.ion-list li a b{display:block;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;}
 .ion-list li a i{display:inline-block;font-style:normal;width:100%;font-size:12px;color:#666;}
 /*.btn*/
 .btn{display:inline-block;font-size:14px;padding:8px 3em;box-sizing: border-box;text-decoration:none;position:relative;}
