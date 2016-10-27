@@ -164,7 +164,7 @@ input:focus,button:focus{outline:none;}
 .mask{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);z-index:101;display:none;}
 .pop{position:fixed;top:-130%;left:50%;margin-left:-600px;z-index:102;transition:0.3s;}
 .pop .title{font-size:30px;color:#fff;font-weight:normal;margin-bottom:40px;}
-.pop p{font-size:14px;color:#fff;line-height:27px;}
+.pop p{font-size:14px;color:#fff;line-height:27px;margin-bottom:10px;}
 .i2{text-indent:2em;}
 .pop h4{font-size:16px;color:#ffb5b5;margin:0;font-weight:normal;margin:15px 0;position:relative;}
 .pop .box{display:inline-block;border:1px dashed #818285;padding:20px;border-radius:10px;width:80%;text-align:left;height:680px;overflow:hidden;position:relative;}
