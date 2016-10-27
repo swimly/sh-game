@@ -17,4 +17,8 @@
       $(".mask").fadeOut(200)
     },500)
   })
+  $("input").change(function(){
+    var val=$(this).val();
+    $(".form.items").eq(val).show().siblings(".form.items").hide();
+  })
 })()
