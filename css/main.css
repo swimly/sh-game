@@ -55,10 +55,12 @@ input:focus,button:focus{outline:none;}
 .code-box:after{bottom:-1px;top:auto;}
 .banner{height:370px;}
 .banner ul li{height:370px;background-position:center bottom;background-repeat:no-repeat;}
-.module-title{font-size:16px;margin-bottom:40px;}
+.module-title{font-size:16px;margin-bottom:40px;position:relative;}
 .module-title span{padding-right:0.3em;position:relative;}
 .module-title span:after{content:"";display:inline-block;width:1px;height:16px;background:#9e0000;position:absolute;right:0;top:50%;margin-top:-8px;}
 .module-title i{font-size:12px;font-weight:normal;font-style:normal;color:#666666;}
+.module-title .more{font-weight:normal;font-size:12px;background:#2C62C3;color:#fff;height:16px;line-height:15px;padding:0 0.5em;border-radius:7px;position:absolute;right:0;top:50%;margin-top:-7px;border:1px solid #2C62C3;}
+.more:hover{color:#2C62C3;background:#fff;}
 .main .col{border-left:1px dashed #D4D4D4;padding:0 20px;}
 .img .col{padding:0;text-align:center;position:relative;}
 .img .col .btn{position:absolute;bottom:20px;left:50%;width:8em;margin-left:-4em;font-size:12px;padding:5px 0.5em;}
