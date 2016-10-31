@@ -35,6 +35,7 @@ input:focus,button:focus{outline:none;}
 .info .user i{font-size:14px;margin:0 0.3em;position:relative;top:-14px;}
 .info .user .iconfont{font-size:14px;color:#C40000;position:relative;}
 .info .user:after{content:attr(title);display:inline-block;position:absolute;right:5px;top:24px;width:14px;height:14px;border-radius:50%;background:#C40000;color:#fff;font-size:12px;font-weight:normal;text-align:center;line-height:12px;}
+.info .user.null:after{display:none;}
 .info a i{display:inline-block;width:auto;}
 .login .nav a:first-child{border-left:none;}
 .login .nav a{text-align:left;padding:0 0 8px 2em;}
