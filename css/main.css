@@ -343,9 +343,11 @@ background:url(img/.png) no-repeat;
     border-width:2px
 }
 .nav{position:relative;}
-.nav .more{position:absolute;top:78px;left:0;background:#fff;display:none;}
+.nav .more{position:absolute;top:78px;left:0;background:#fff;display:none;padding-top:5px;}
 
-.nav .more i{position:static;display:inline-block;width:100%;padding:12px 0;margin:0;text-align:center;border-top:1px solid #eee;}
+.nav .more i{position:static;display:inline-block;width:100%;margin:0;text-align:center;border-top:1px solid #eee;height:40px;line-height:40px;}
+.nav .more i:before{content:"";display:inline-block;width:0;height:100%;vertical-align: middle;}
 .nav .more i:hover{color:#C40000;}
 .nav .more i:first-child{border-top:none;}
-.nav .more i b.iconfont{font-size:20px;vertical-align: middle;margin-right:0.3em;font-weight:normal;}
+.nav .more i:first-child b.iconfont{margin-top:-4px;}
+.nav .more i b.iconfont{font-size:20px;vertical-align: middle;margin-right:0.3em;font-weight:normal;height:20px;line-height:20px;display:inline-block;}
