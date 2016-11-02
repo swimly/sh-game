@@ -22,3 +22,13 @@
     $(".form.items").eq(val).show().siblings(".form.items").hide();
   })
 })()
+;(function(){
+  $(".name").click(function(e){
+    var e=e||event;
+    e.stopPropagation();
+    $(this).siblings(".more").slideDown();
+  })
+  $(document).click(function(){
+    $(".more").slideUp();
+  })
+})()

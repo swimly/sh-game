@@ -34,7 +34,7 @@ input:focus,button:focus{outline:none;}
 .info{width:270px;padding-left:30px;}
 .info .user i{font-size:14px;margin:0 0.3em;position:relative;top:-14px;}
 .info .user .iconfont{font-size:14px;color:#C40000;position:relative;}
-.info .user:after{content:attr(title);display:inline-block;position:absolute;right:5px;top:24px;width:14px;height:14px;border-radius:50%;background:#C40000;color:#fff;font-size:12px;font-weight:normal;text-align:center;line-height:12px;}
+.info .user:after{content:attr(num);display:inline-block;position:absolute;right:5px;top:24px;width:14px;height:14px;border-radius:50%;background:#C40000;color:#fff;font-size:12px;font-weight:normal;text-align:center;line-height:12px;}
 .info .user.null:after{display:none;}
 .info a i{display:inline-block;width:auto;}
 .login .nav a:first-child{border-left:none;}
@@ -342,3 +342,9 @@ background:url(img/.png) no-repeat;
     background-color:#F7F7F7;
     border-width:2px
 }
+.nav{position:relative;}
+.nav .more{position:absolute;top:78px;left:0;background:#fff;display:none;}
+
+.nav .more i{position:static;display:inline-block;width:100%;padding:12px 0;text-align:center;border-top:1px solid #eee;}
+.nav .more i:hover{color:#2C62C3;}
+.nav .more i:first-child{border-top:none;}
