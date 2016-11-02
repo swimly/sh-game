@@ -345,6 +345,7 @@ background:url(img/.png) no-repeat;
 .nav{position:relative;}
 .nav .more{position:absolute;top:78px;left:0;background:#fff;display:none;}
 
-.nav .more i{position:static;display:inline-block;width:100%;padding:12px 0;text-align:center;border-top:1px solid #eee;}
-.nav .more i:hover{color:#2C62C3;}
+.nav .more i{position:static;display:inline-block;width:100%;padding:12px 0;margin:0;text-align:center;border-top:1px solid #eee;}
+.nav .more i:hover{color:#C40000;}
 .nav .more i:first-child{border-top:none;}
+.nav .more i b.iconfont{font-size:20px;vertical-align: middle;margin-right:0.3em;font-weight:normal;}
