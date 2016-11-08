@@ -12,7 +12,7 @@
     },500)
   })
   $(".close").click(function(){
-    $(this).parents(".pop").css("top","-100%");
+    $(this).parents(".pop").css("top","-150%");
     setTimeout(function(){
       $(".mask").fadeOut(200)
     },500)
