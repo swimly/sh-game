@@ -1,9 +1,12 @@
 ;(function(){
   var current=0;
+  grayscale($(".next img"));
   $(".next").click(function(){
+    grayscale.reset($(".next img"));
     current++;
     $(".item").eq(current).show().siblings(".item").hide();
-    $(".step").children().eq(current).removeClass("next")
+    $(".step").children().eq(current).removeClass("next");
+    grayscale($(".next img"));
   })
   $(".pop-xieyi").click(function(){
     $(".mask").fadeIn(200);
