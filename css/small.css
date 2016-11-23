@@ -9,5 +9,5 @@ body{font-size:55%;}
 .info .user i{font-size:12px;top:-8px;}
 .info .user:after{top:10px;}
 .a1{width:300px;top:80px !important;}
-.banner.index .btn{right:100px !important;bottom:50px !important;}
+.banner.index .btn{right:180px !important;bottom:50px !important;left:auto !important;margin:0;}
 .pop .box{height:500px;}
